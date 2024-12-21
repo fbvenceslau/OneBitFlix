@@ -1,0 +1,10 @@
+const path = require('path');
+
+module.exports = {
+  'config': path.resolve('config', 'sequelizeCli.js'), // Localização do arquivo que conecta ao DB
+  'models-path': path.resolve('src', 'models'), // Caminho dos model
+  'seeders-path': path.resolve('src', 'database', 'seeders'), // " "
+  'migrations-path': path.resolve('src', 'database', 'migrations') // " "
+};
+
+// Arquivo de configuração do Sequeli
