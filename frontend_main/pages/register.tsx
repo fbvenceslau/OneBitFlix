@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-sync-scripts */
 import styles from "../styles/registerLogin.module.scss";
 import Head from "next/head";
 import HeaderGeneric from "@/src/components/common/headerGeneric";
@@ -7,7 +6,7 @@ import Footer from "@/src/components/common/footer";
 import { FormEvent, useState} from "react";
 import authService from "@/src/service/authService";
 import { useRouter } from "next/router";
-import ToastComponent from "@/src/components/common/toast/imdex";
+import ToastComponent from "@/src/components/common/toast";
 
 const Register = function () {
   const router = useRouter();
